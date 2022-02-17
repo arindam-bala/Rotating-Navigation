@@ -68,6 +68,11 @@ body {
     transform-origin: top left;
 }
 
+ .container.show-nav + nav li {
+     transform: translate(0);
+     transition-delay: 0.3s;
+ }
+
 nav {
     position: fixed;
     bottom: 40px;
